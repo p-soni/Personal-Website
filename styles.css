@@ -1,0 +1,111 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  	padding: 0px;
+  	border: 0px;
+  	line-height: 1.8;
+  	font-family: 'Poiret One', cursive;
+}	
+
+.top {
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top:0;
+	background-color: pink;
+}
+
+.bar{
+	width:100%;
+	overflow:hidden;
+	position:fixed;
+	width:100%;
+	z-index:1;
+	top: 0;
+}
+.bar-item{
+	padding:8px 16px;
+	float:left;
+	width:auto;
+	border:none;
+	outline:none;
+	display:block;
+}
+
+.button:hover{
+	color: #000!important;
+	background-color: #ccc!important;
+}
+.button{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	color:inherit;
+	background-color:inherit;
+	text-align:center;
+	white-space:nowrap;
+	font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  height: 3em;
+  width: 100%;
+  z-index: 1;
+  box-shadow: 0px 4px 7px #777;
+  color: #777;
+  padding: 3px 0;
+  transition: background-color 0.1s ease-out;
+}
+
+nav.scroll {
+  background-color: #F4D8D8;
+  box-shadow: 0px 0px;
+  padding: 0 0;
+}
+
+
+.opening-img{
+    background-image: url('images/Untitled-2.jpg');
+    height: 100%; 
+    min-height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:0.85;
+}
+
+.text {
+	background-color: #F5F5F9;
+	margin-top: 0;
+	padding-top: 1%;
+}
+
+.text p {
+	text-align: center;
+}	
+
+.headingText  {
+    font-size: 45px;
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+.headingText::before,
+.headingText::after {
+    display: inline-block;
+    content: "";
+    border-top: .2rem solid #D06D65;
+    width: 10rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
