@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8" />
     <link rel='stylesheet' href='styles.css' type='text/css'>
-    <script type="text/javascript" src="main.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
     <title>PSoni</title>
 </head>
 <body>
@@ -14,24 +15,18 @@
             <nav id="navbar">
                 <a href="#home" class="bar-item button">HOME</a>
                 <a href="#about" class="bar-item button"><i class="fa fa-user-circle"></i> ABOUT</a>
-                <a href="#experience" class="bar-item button"><i class="fa fa-briefcase"></i> EXPERIENCE</a>
-                <a href="#skills" class="bar-item button"><i class="fa fa-edit"></i> SKILLS</a>
+                 <a href="#experience" class="bar-item button"><i class="fa fa-briefcase"></i> EXPERIENCE</a>
+                <a href="#skills" class="bar-item button"><i class="fa fa-gear"></i> SKILLS</a>
                 <a href="#contact" class="bar-item button"><i class="fa fa-handshake-o"></i> CONTACT</a>
             </nav>
         </div>
     </div>
 
-
-    <div class="opening-img" id="home"></div>
-
-   <!--  <div style="height:1000px;background-color:red;font-size:36px">
-        Scroll Up and Down this page to see the parallax scrolling effect.
-        This div is just here to enable scrolling.
-        Tip: Try to remove the background-attachment property to remove the scrolling effect.
+    <div class="opening-img" id="home">
     </div>
- -->
-    <div class=text>
-        <div class = "heading">
+
+    <div class= "container one scroll-padding" id="about">
+        <div class ="heading">
             <p class="headingText">About Me</p>
         </div>
         <p>What is Lorem Ipsum?
@@ -66,6 +61,61 @@ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
 
 Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+</p>
+    </div>
+
+
+    <div class= "container two scroll-padding2" id="experience">
+        <div class ="heading">
+            <p class="headingText">Experience</p>
+        </div>
+        
+        <section id="timeline">
+  
+            <div class="tl-item">
+                <div class="tl-bg" style="background-image: url('images/uva.jpg')"></div>
+                    <div class="tl-year">
+                        <p>2014</p>
+                    </div>
+                    <div class="tl-content">
+                        <h1>University of Virginia</h1>
+                        <p>CS Major and psyc minor.</p>
+                    </div>
+            </div>
+
+            <div class="tl-item">
+                <div class="tl-bg" style="background-image: url(https://placeimg.com/802/802/nature)"></div>
+                <div class="tl-year">
+                    <p>2016</p>
+                </div>
+                <div class="tl-content">
+                    <h1>WiCS</h1>
+                    <p>Industry chair relations and now VP .</p>
+                </div>
+            </div>
+
+            <div class="tl-item">
+                <div class="tl-bg" style="background-image: url(https://placeimg.com/803/803/nature)"></div>
+    
+                <div class="tl-year">
+                    <p>2017</p>
+                </div>
+                <div class="tl-content">
+                    <h1>WAPO</h1>
+                    <p>internship.</p>
+                </div>
+
+            </div>
+        </section>
+
+    </div>
+
+<div class= "container three scroll-padding" id="skills">
+        <div class ="heading">
+            <p class="headingText">Skills</p>
+        </div>
+        <p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?
 It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
@@ -73,8 +123,23 @@ What is Lorem Ipsum?
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 Why do we use it?
-It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+</p>
     </div>
 
+
+
+
+    <div class= "container four scroll-padding" id="contact">
+        <div class ="heading">
+            <p class="headingText last">Contact</p>
+        </div>
+        <p>What is Lorem Ipsum?
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+</p>
+    </div>
 </body>
 </html>
