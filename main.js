@@ -12,11 +12,9 @@ window.onscroll = () => {
 //     }
 // }
  
-
- 
 $(document).ready(function(){
 	//fade in hello world opening image:
-	$('#home').hide().fadeIn(3300);
+	$('#home').hide().fadeIn(3200);
 
   // Add smooth scrolling to all links
   $("a").on('click', function(event) {
@@ -36,4 +34,13 @@ $(document).ready(function(){
       });
     } // End if
   });
+});
+
+
+$(document).ready(function() {
+  $('.java').css('width', '95%');
+  $('.python').css('width', '85%');
+  $('.html').css('width', '70%');
+  $('.css').css('width', '65%');
+  $('.javascript').css('width', '30%');
 });
